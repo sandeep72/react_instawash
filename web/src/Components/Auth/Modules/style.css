@@ -1,0 +1,161 @@
+.table-btn-icon {
+  width: auto;
+  height: 30px;
+}
+
+.data-table {
+  font-size: 12px;
+  color: #333333;
+  width: 100%;
+  border-width: 1px;
+  border-color: #729ea5;
+  border-collapse: collapse;
+  overflow: scroll;
+}
+
+.data-table th {
+  font-size: 12px;
+  background-color:#acc8cc;
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #729ea5;
+  text-align:left;
+}
+
+.data-table tr {
+  background-color: white;
+}
+
+.data-table td {
+  font-size:12px;
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #729ea5;
+}
+
+.data-table tr:hover {
+  background-color:#d4e3e5;
+}
+
+.customer-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  align-items: center;
+}
+
+.round-btn {
+  cursor: pointer;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border: 0.5px solid #5ABDA5 !important;
+  border-radius: 50px !important;
+  color: #5ABDA5 !important;
+  font-size: medium;
+  text-decoration: none;
+  height: 40px;
+}
+
+.round-btn:hover {
+  background-color: #5ABDA5;
+  color: white !important;
+}
+
+.gender-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 45% !important;
+}
+
+.custom {
+  width: 78% !important;
+  margin-left: 15px;
+}
+
+.chart-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content-tile {
+  color: coral;
+}
+
+.chart-title {
+  color: lightcoral;
+  text-align: center;
+}
+
+.danger {
+  background-color: #DC3444 !important;
+  color: white !important;
+}
+
+.profile-container {
+  padding: 10px;
+}
+
+.profile-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+}
+
+.label {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+
+.camera-btn {
+  height: 35px;
+  width: auto;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.hide {
+  display: none;
+}
+
+.profile-image-container:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.profile-image-container:hover .hide {
+  display: block;
+  background: red;
+  text-align: center;
+  border-radius: 50px;
+  color: white;
+}
+
+.msg-img {
+  width: 100px;
+  height: 100px;
+}
+
+.report-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 50px;
+}
+
+.report-card {
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 3px 5px 10px 1px rgb(0 0 0 / 20%);
+  border:1px solid #5ABDA5;
+}
+
+.card-val {
+  color: #009FFF;
+}
