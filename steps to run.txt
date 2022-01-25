@@ -1,0 +1,14 @@
+install composer
+install node.js
+install xampp
+
+start xampp server for apache and mysql
+create db "instawash" in phpmyadmin
+
+open laravel folder in and run composer update, to install libraries in the cendor folder
+open server folder in vs code and run npm install to download packages
+open web folder in vs code and run npm install to download packages
+
+run the laravel server: php artisan serve
+run node js server: npm start
+run the web application : npm start
